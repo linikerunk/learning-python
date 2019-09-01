@@ -8,8 +8,13 @@
 
 def divisao(numero1, numero2):
     resultado = 0
-    for i in range(0, int(numero2)):
-        resultado = numero1 
+    if numero2 == 0:
+        print('Não existe divisão por Zero.')
+        exit(1)
+
+    while(numero1 >= numero2):
+         numero1 -= numero2
+         resultado += 1
     return resultado
 
 def main():   
