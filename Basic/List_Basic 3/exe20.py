@@ -1,3 +1,5 @@
+# Crie uma matriz 3 x 3 
+
 matrix = [[0, 0, 0], [1, 1, 1], [2, 2, 2]]
 
 for l in range(0, 3):

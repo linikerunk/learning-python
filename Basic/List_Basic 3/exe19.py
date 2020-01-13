@@ -1,3 +1,5 @@
+#faça um program que simule a geração dos jogos da lotofacil e da megasena
+
 from random import sample
 from time import sleep
 
