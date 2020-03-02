@@ -20,3 +20,4 @@ E se possível mostrar alguma aplicação do Django 2.2.4, Django RestFrameWork 
 Bom espero que gostem do conteúdo esse é um dos meus primeiros e desejos a todos felicidades e boa didatica para conseguir alcançar seus objetivos.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+TESTE
