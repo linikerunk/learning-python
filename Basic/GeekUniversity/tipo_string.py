@@ -34,7 +34,7 @@ print("Geek University"[0:4]) #Slice de string
 print(nome[5:15]) #Slice de string
 
 # inverter a string
-
+g
 #Quero ir do primeiro elemento ir até o último elemento e inverta
 print(nome[::-1]) # Método super pythonico.. IMPORTANTE
 
