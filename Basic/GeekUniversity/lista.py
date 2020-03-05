@@ -247,8 +247,6 @@ print(numeros.index(5, 1)) # Encontra o indice do valor 5 apartir do indice 1
 
 print(numeros.index(8, 2, 6))# Buscar o valor do indice 8 entre 2 e 6
 
-"""
-
 # Revisão de slicing
 
 # lista[inicio:fim:passo]
@@ -263,3 +261,91 @@ print(lista[0:10:2])
 print(lista[-4:])
 print(lista[:-4])
 print(lista[1:3]) # Começa em 1, pega até o indice 3 - 1
+
+# Invertendo valores em uma lista.
+
+nomes =['Geek', 'University']
+
+nomes[0], nomes[1] = nomes[1], nomes[0]
+
+print(nomes)
+
+
+nomes= ["Liniker", "Oliveira"]
+
+nomes.reverse()
+print(nomes)
+
+# Soma, Valor Máximo, Valor Mínimo, Tamanho
+
+# * Se os valores forem todos inteiros ou reais.
+
+lista = [0, 2, 3, 55, 5, 5]
+
+print(sum(lista)) # Soma
+print(max(lista)) # Máximo valor
+print(min(lista)) # Mínimo valor
+print(len(lista)) # Tamanho da lista
+
+
+# Transformar uma lista em tupla
+
+lista = [1, 2, 3, 4, 5, 6]
+print(lista)
+print(type(lista))
+
+tupla= tuple(lista)
+print(tupla)
+print(type(tupla))
+
+# Desempacotaento de listas ...
+
+lista = ['Gui', 'Pedro', 'Liniker']
+num1, num2, num3 = lista
+
+print(num1)
+print(num2)
+print(num3)
+
+# OBS : Se tivermos mais elementos para desempacotar do que variáveis para receber os valores, teremos ValueError
+
+
+# Copiando uma lista para outra( Shallow, Copy e Deep Copy)
+
+# Forma 1 Deep Copy
+
+lista = [1, 2, 3]
+print(lista)
+
+nova = lista.copy()
+
+print(nova)
+
+nova.append(4)
+
+print(lista)
+print(nova)
+
+
+# Veja que ao utilizarmos lista.copy() copiamos os dados da lista para uma nova lista, mas elas ficaram totalmente idependentes,
+# ou seja, modificando uma lista, não afeta a outra. Isso em Python é chamado de Deep Copy (cópia profunda)
+
+# Forma 2 - Shallow Copy
+
+lista = [1, 2, 3]
+print(lista)
+
+nova = lista # cópia
+
+print(nova)
+
+nova.append(4)
+
+print(lista)
+print(nova)
+
+# OBS: Veja que utilizamos a cópia via atribuição e copiamos os dados da lista para nova lista, mas após realizar modificação em uma lista,
+# essa modificação se refletiu em ambas as listas.
+# Isso em Python é Chamado de Shallow Copy
+
+"""
