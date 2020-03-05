@@ -1,5 +1,5 @@
 """
-Lista 
+Lista  (list)
 Lista em Python funcional como vetores/matrizes  (arrays) em outras linguagens,
 com a diferença de serem DINÁMICA e támbem de podermos colocar QUALQUER tipo de dado.
 
