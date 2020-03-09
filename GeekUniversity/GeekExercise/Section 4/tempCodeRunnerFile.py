@@ -1,0 +1,2 @@
+
+print("Nascimento : ", type( nascimento))
