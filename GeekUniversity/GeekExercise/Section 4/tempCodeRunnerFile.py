@@ -1,2 +1,0 @@
-
-print("Nascimento : ", type( nascimento))
