@@ -4,6 +4,7 @@ cada deu a reralização da aposta. Faça um programa que leia quanto cada apost
 e imprima quanto cada um ganharia de prêmio com base no valor investido.
 """
 while True:
+    premio = input("Digite o valor do prémio : ")
     valor_aposta = input("Digite o valor que será apostado : ")
     qnt_pessoa = input("Quantos apostadores vão participar : ")
 
@@ -29,8 +30,11 @@ while True:
     if sum(apostas) != float(valor_aposta):
         print("Divisao das apostas não está certa ..  ")
     else:
+        print("*"*10, "PREMIO : ", 10*'*')
         for indice, percentual in enumerate(apostas):
-            print(f"Jogador {indice}  irá ganhar {apostas[percentual]} % do valor {sum(apostas)}")
+            percentual_por_pessoa = (apostas[indice] * 100) /sum(apostas) 
+            print(f"Jogador {indice}  irá ganhar {percentual_por_pessoa} % do bilhete que é : {sum(apostas)} \
+ percentual do valor  prémio : {round((float(premio) * percentual_por_pessoa / 100), 2 )} ")
 
 
 
