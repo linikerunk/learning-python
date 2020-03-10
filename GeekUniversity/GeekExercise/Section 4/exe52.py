@@ -1,7 +1,7 @@
 """
 Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido proporcionalmente ao valor que
 cada deu a reralização da aposta. Faça um programa que leia quanto cada apostador investiu, o valor do prêmio,
-e imprima quanto cada um ganharia de prêmio com base no valor investido.
+e imprima quanto cada um ganharia de prêmio com base no valor investido .
 """
 while True:
     premio = input("Digite o valor do prémio : ")
