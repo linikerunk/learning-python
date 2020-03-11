@@ -16,19 +16,16 @@ while True:
     finally:
         if grade < 0 or grade > 10:
             print("Nota deve estar entre 0 e 10.")
-        # else:
-        #     grades.append(grade)
-        #     weighted_average = 0; sum_grades = 0
-        #     if len(grades) == 3:
-        #         for index, value in enumerate(grades):
-        #             print(grades[0], grades[1], grades[2])
-        #             if index < 2:
-        #                 sum_grades += (value / 0.25) * 1
-        #                 print("troasdjsad")
-        #             elif index == 2:
-        #                 sum_grades += (value / 0.50) * 1
-        #                 print(sum_grades)    
-        #                 weighted_average = sum_grades / len(grades)
-        #                 print(f"Média ponderada é igual a : {weighted_average}")
-        #         break
+        else:
+            grades.append(grade)
+            weighted_average = 0; sum_grades = 0
+            if len(grades) == 3:
+                for index, value in enumerate(grades):
+                    if index < 2:
+                        sum_grades += (value * 0.25) 
+                    elif index == 2:
+                        sum_grades += (value * 0.50)  
+                        weighted_average = sum_grades / (0.50 + 0.25 + 0.25)
+                        print(f"Média ponderada é igual a : {weighted_average}")
+                break
             
