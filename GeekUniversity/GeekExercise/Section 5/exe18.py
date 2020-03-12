@@ -49,15 +49,10 @@ while True:
             except:
                 print("Digito inválido.")    
             finally:
-                switcher = {
+                options = {
                     1: somar(number_1, number_2),
                     2: subtrair(number_1, number_2),
                     3: multiplicar(number_1, number_2),
                     4: dividir(number_1, number_2),
                 }
-
-                if options in switcher:
-                    switcher[options]
-                else:
-                    print("Erro, número inexistente ")
-                print("To aqui")
+                
