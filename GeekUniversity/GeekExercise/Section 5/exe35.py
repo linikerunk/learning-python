@@ -9,7 +9,6 @@ while True:
     _format = "%d/%m/%Y"
     try:
         convert_date =  datetime.datetime.strptime(date, _format)
-        print(convert_date)
     except:
         print("Data Inválida.")
         break
