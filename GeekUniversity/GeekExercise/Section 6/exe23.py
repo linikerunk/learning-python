@@ -2,15 +2,33 @@
 Faça um algoritmo que leia um número positivo e imprima seus divisores.
 """
 
-while True:
-    digit = input("Digite um número para verificar seus divisores : ")
-    try:
-        digit = float(digit)
-    except:
-        print("Digito inválido")
-    finally:
-        # for num in range(1, int(digit)+1):
-        #     if num % 2 == 0:
-        #         print(num)
-        #         if num % digit == 0:
-        #             print(f"{num} é um divisor de {digit}")
+# import numpy as np
+# import time
+
+def dividers(num):
+	for i in range(1, int(num)//2+1):
+		if num % i == 0: 
+			yield i
+	yield num
+ 
+num = input("Digite um número positivo : ")
+try:
+	num = float(num)
+except:
+	print("Digito Inválido.")
+finally:
+	if num < 0:
+		print("Digito negativo não é válido.")
+	else:
+		print(list(dividers(num)))
+	
+# print("Agora com Numpy, numero estático [10]")
+
+# num_two = 10
+
+# def divisores(num):
+# 	n = np.arange(1, num)
+# 	d = num % n
+# 	zeros = d == 0
+# 	print (n[zeros])
+# divisores(num_two)
