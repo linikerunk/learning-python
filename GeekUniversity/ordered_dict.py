@@ -28,7 +28,7 @@ print(dict1 == dict2) # True -> Já que a ordem dos elementos não importa para 
 # Ordered Dict
 
 odict1 = OrderedDict({'a': 1, 'b': 2})
-odict2 = OrderedDict({'a': 2, 'b': 1
+odict2 = OrderedDict({'a': 2, 'b': 1})
 
 
 print(odict1 == odict2) # False, já que a ordem dos elementos importa para o OrderedDict
