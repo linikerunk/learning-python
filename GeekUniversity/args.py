@@ -72,3 +72,4 @@ print(soma_todos_numeros(*numeros)) # Aqui estou desempacotando a lista
 # passando como argumento uma coleção de dados. Desta forma,ele saberá que precisa
 # rá antes desempacotar esses dados
 
+
