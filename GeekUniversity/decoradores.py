@@ -89,7 +89,7 @@ dormir()
 /administrativo -> administrativo
 
 
-# OBS: Nãi funciona código...
+# OBS: Não funciona código...
 
 def checa_login(request):
     if not request.usuario:
