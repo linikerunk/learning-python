@@ -10,7 +10,7 @@ Encapsular -> capsula.
         classe
 -------------------------
 /  Atributos e metodos  /  <- Encapsulamento
-------------------------
+-------------------------
 
 # Atributos / Métodos privados em Python
 
