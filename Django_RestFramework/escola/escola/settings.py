@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 
-7da9d78ba0f757cec6ee16bce77d084700afb47a token
+7da9d78ba0f757cec6ee16bce77d084700afb47a token liniker
+a09568b611aed14776e4e2036af78de136c94fa4 token felicity
 """
 
 import os
@@ -141,5 +142,13 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 2
+    'PAGE_SIZE': 2,
+    'DEFAULT_THROTTLE_CLASSES': (
+        'rest_framework.throttling.AnonRateThrottle',
+        'rest_framework.throttling.UserRateThrottle',
+    ),
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '5/minute', # second, day, month, year
+        'user': '10/minute'
+    }
 }
