@@ -8,8 +8,8 @@ Pip package manager concept,  the famous python libraries to create an automatio
 And, if it's possible, I'll show you a django 2.2.4. application, django rest framework  creating a crud in a web system. 
 
 I hope you guys like the content! This is one of my first repositories and I wish you happiness and a good didactic to achieve your objectives.
-------------------------------------------------------------------------------------------------------------------------------------------
- Aqui estou disposto a resolver um grupo de problemas para melhorar minhas habilidades, e passar o conhecimento adiante para novos Pandawans da programação Python.
+--------------------------------------------------------------------------------------
+Aqui estou disposto a resolver um grupo de problemas para melhorar minhas habilidades, e passar o conhecimento adiante para novos Pandawans da programação Python.
 
 Pretendo abordar todos conhecimento desdo básico (Programação Funcional), passando por tópicos como os paradigmas de programação, exemplo : (Programação Orientada a Objetos), Programação Reativa(Front-End).
 
@@ -19,5 +19,4 @@ E se possível mostrar alguma aplicação do Django 2.2.4, Django RestFrameWork 
 
 Bom espero que gostem do conteúdo esse é um dos meus primeiros e desejos a todos felicidades e boa didatica para conseguir alcançar seus objetivos.
 
-------------------------------------------------------------------------------------------------------------------------------------------
-TESTE
+--------------------------------------------------------------------------------------
