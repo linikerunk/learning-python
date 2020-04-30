@@ -57,4 +57,8 @@ class CursoSerializer(serializers.ModelSerializer):
         )
 
     def get_media_avaliacoes(self, obj):
-        pass
+        media = obj.avaliacoes.aggregate(Avg('avaliacao')).get('avaliacao__avg')
+
+        if media is None:
+            return 0
+        return round(media * 2)/2
