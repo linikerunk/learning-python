@@ -5,7 +5,7 @@ On this repository  I'll solve some python exercises to improve my abilities and
 I intend to explore all of the levels since basic (functional programming) to high level programming paradigms, such as object oriented programming,  reactive programming (front end).
 Pip package manager concept,  the famous python libraries to create an automation level and solutions for diverse problems. 
 
-And, if it's possible, I'll show you a django 2.2.4. application, django rest framework  creating a crud in a web system. 
+And, if it's possible, I'll show you a Django 2.2.4. application, Django rest framework  creating a C.R.U.D. in a web system. 
 
 I hope you guys like the content! This is one of my first repositories and I wish you happiness and a good didactic to achieve your objectives.
 --------------------------------------------------------------------------------------
@@ -15,7 +15,7 @@ Pretendo abordar todos conhecimento desdo básico (Programação Funcional), pas
 
 Conceito dos gerenciador de pacote pip, as bibliotecas mais famosas do python para termos um nivél de automatização e soluções de problemas diversos.
 
-E se possível mostrar alguma aplicação do Django 2.2.4, Django RestFrameWork fazendo um CRUD em um sistema web.
+E se possível mostrar alguma aplicação do Django 2.2.4, Django RestFrameWork fazendo um C.R.U.D. em um sistema web.
 
 Bom espero que gostem do conteúdo esse é um dos meus primeiros e desejos a todos felicidades e boa didatica para conseguir alcançar seus objetivos.
 
